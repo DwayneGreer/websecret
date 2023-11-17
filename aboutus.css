@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 'Trirong', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background: transparent;
+    height: 10px;
+    width: 100%;
+    font-family: 'Trirong', sans-serif;
+}
+
+#logoimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+    font-size: 10px;
+    padding-top: 10px;
+  }
+
+  nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin:  5px;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: 10px;
+    padding: 5px 1px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: RGB(251,102,95);
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+
+  .box {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#low-opacity-bg-image1 {
+    background-color: black;
+}
+
+#articleonetitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+#articlefourtitle {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#parent_container3 {
+    height: 100vh;
+    padding: 30px;
+    background-color: black;
+}
+
+#articlefourpara {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.contain {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider .slideimg {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav .slideanchor {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav .slideanchor:hover {
+    opacity: 1;
+}
+
+#parent_container {
+    background-color: black;
+    padding: 30px
+}
+
+.articletitles {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    color: RGB(251,102,95);
+}
+
+.articletwopara {
+    font-size: 12px;
+    text-align: center;
+    color: RGB(251,102,95);
+    border: solid;
+    border-radius: 10px
+}
+
+#img1 {
+    box-shadow: 5px 5px 10px RGB(251,102,95);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+button {
+    display: none;
+}

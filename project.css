@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 'Trirong', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background: transparent;
+    height: 10px;
+    width: 100%;
+    font-family: 'Trirong', sans-serif;
+}
+
+#logoimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+    font-size: 10px;
+    padding-top: 10px;
+  }
+
+  nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin:  5px;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: 10px;
+    padding: 5px 1px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: RGB(251,102,95);
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+
+  .box {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p, a {
+    color: white;
+    font-size: 10px;
+}
+
+#img1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#child1 {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url('img2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+body::after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    background: black;
+    inset: 0;
+    opacity: .3;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.wrapper {
+    padding: 30px;
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 'Trirong', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    background: transparent;
+    height: 10px;
+    width: 100%;
+    font-family: 'Trirong', sans-serif;
+}
+
+#logoimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin:  5px;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+
+  .box {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#articleonetitle {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.box span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.box span:nth-child(2)
+{
+    animation-delay: -0.2s;
+}
+
+.box span:nth-child(3)
+{
+    animation-delay: -0.4s;
+}
+@keyframes animate 
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+#low-opacity-bg-image1 {
+    background-image: url('fundingimg7.PNG');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}    
+
+#low-opacity-bg-image1::after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    background: silver;
+    inset: 0;
+    opacity: .3;
+}
