@@ -124,7 +124,7 @@ nav ul{
 .slider .slideimg {
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit:contain;
+    object-fit: cover;
 }
 
 .slider-nav {
