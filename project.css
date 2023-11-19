@@ -35,6 +35,10 @@ nav ul{
     margin:  5px;
   }
 
+.ticket_link {
+    text-decoration: underline;
+}
+
   nav ul li a{
     color: white;
     font-size: 10px;
