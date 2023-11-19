@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 'Trirong', sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+nav {
+    background: transparent;
+    height: 10px;
+    width: 100%;
+    font-family: 'Trirong', sans-serif;
+}
+
+#logoimg {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+nav ul{
+    justify-content: space-between;
+    margin-right: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+    float: right;
+  }
+
+  nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin:  5px;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: 10px;
+    padding: 5px 1px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: RGB(251,102,95);
+  }
+
+h2 {
+    color: white;
+}
+
+.donations {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 25px white;
+    font-size: 16px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+p {
+    color: white;
+    padding: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    #logoimg {
+        width: 200px;
+        height: 150px;
+        padding: 0;
+        position: absolute;
+        top: -3%;
+    }
+    nav ul li a{
+        font-size: 18px;
+      }
+    }
