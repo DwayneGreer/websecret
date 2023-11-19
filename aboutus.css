@@ -168,6 +168,24 @@ button {
     display: none;
 }
 
+@media only screen and (min-width: 1200px) {
+    .slider-wrapper{
+        max-width: 35rem;
+    } 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .slider-wrapper {
+        max-width: 35rem;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width:768px) {
+    .slider-wrapper {
+        max-width: 30rem;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     #logoimg {
         width: 200px;
