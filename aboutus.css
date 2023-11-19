@@ -46,20 +46,6 @@ nav ul{
     color: RGB(251,102,95);
   }
 
-  .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-
-  #check{
-    display: none;
-  }
-
   .box {
     position: absolute;
     top: 90%;
@@ -142,7 +128,7 @@ nav ul{
     height: 0.5rem;
     border-radius: 50%;
     background-color: #fff;
-    opacity: 0.75;
+    opacity: 0.95;
     transition: opacity ease 250ms;
 }
 
@@ -180,3 +166,30 @@ button {
     display: none;
 }
 
+@media only screen and (min-width: 768px) {
+    #logoimg {
+        width: 200px;
+        height: 150px;
+        padding: 0;
+        position: absolute;
+        top: -3%;
+    }
+    nav ul li a{
+        font-size: 18px;
+      }
+      .articletwopara {
+        font-size: 16px;
+      }
+      .articletitles {
+        font-size: 23px;;
+      }
+      #img1 {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+        height: 400px;
+      }
+      #articlefourpara {
+        font-size: 16px;
+      }
+    }
