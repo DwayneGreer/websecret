@@ -61,7 +61,7 @@ p, a {
     box-shadow: 5px 5px 10px black;
 }
 
-h2 {
+#eventstitle {
     color: white;
     font-size: 20px;
     text-align: center;
@@ -131,4 +131,19 @@ ul {
 .links {
     box-shadow: 5px 5px 10px black;
     border-radius: 10px;
+}
+
+#contact {
+    padding-top: 20px;
+    color: white;
+    text-align: start;
+}
+
+#contactinfo {
+    padding-top: 5px;
+}
+
+li, a {
+    text-decoration: none;
+    color: white;
 }
