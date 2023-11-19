@@ -75,7 +75,7 @@ h2 {
     padding-top: 40px;
 }
 
-#para1 {
+#para1, p {
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -83,19 +83,10 @@ h2 {
 p {
   color: white;
   font-size: 10px;
-  padding-left: 5px;
 }
 
 #img1, #img7 {
   display: none;
-}
-
-.pastevent1 {
-  width: 200px;
-  height: 200px;
-  padding-top: 10px;
-  border-radius: 10px;
-  padding-left: 5px;
 }
 
 .contain {
@@ -154,13 +145,25 @@ display: none;
   opacity: 1;
 }
 
-.events {
-  display: flex;
-  padding-right: 10px;
-}
-
 #lastpara {
   padding-bottom: 10px;
+}
+
+.sectiontitle {
+  text-decoration: underline;
+}
+
+.event_pics {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sectionpara {
+  padding-top: 5px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -190,12 +193,8 @@ display: none;
     p {
       font-size: 13px
     }
-    #event2 {
-      position: relative;
-      left: 150px;
-    }
-    .pastevent1 {
-      width: 300px;
-      height: 300px;
+    .event_pics {
+      width: 350px;
+      height: 350px;
     }
   }
