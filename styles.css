@@ -113,6 +113,12 @@ nav ul{
     opacity: .3;
 }
 
+@media only screen and (min-width: 992px) {
+   #low-opacity-bg-image1 {
+    background-image: url('fundingimg2.PNG');
+   }
+}
+
 @media only screen and (min-width: 768px) {
     #logoimg {
         width: 200px;
@@ -126,8 +132,6 @@ nav ul{
       }
       #articleonetitle {
         font-size: 30px;
-      }
-
-      
+      } 
 }
 
