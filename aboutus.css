@@ -237,3 +237,10 @@ button {
             max-width: 30rem;
         }
     }
+
+    @media only screen and (max-width: 400px) {
+       .slider-wrapper {
+        display: none;
+       }
+    }
+
