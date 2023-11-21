@@ -168,6 +168,11 @@ button {
     display: none;
 }
 
+#replacement {
+    width: 300px;
+    height: 400px;
+}
+
 @media only screen and (min-width: 1200px) and (orientation: landscape) {
     .slider-wrapper{
         max-width: 40rem;
